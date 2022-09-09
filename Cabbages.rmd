@@ -46,9 +46,21 @@ The box plot will show that there will be a significant difference in the variab
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+c25 has a bigger Q1 of 58 then c39, which has Q3 of 54.75. This show a differences between the two.
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+
+```{r}
+t.test(VitC~Cult,data=veggy)
+```
+
+the t test shows the small possibility of this recording to be .00000003405. We reject the idea that they are the same and it comclude that c52 makes more vitamin C then c39.  
 
 
 # Discussion and Conclusion
