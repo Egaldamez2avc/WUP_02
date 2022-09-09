@@ -60,9 +60,12 @@ c25 has a bigger Q1 of 58 then c39, which has Q3 of 54.75. This show a differenc
 t.test(VitC~Cult,data=veggy)
 ```
 
-the t test shows the small possibility of this recording to be .00000003405. We reject the idea that they are the same and it comclude that c52 makes more vitamin C then c39.  
+The t test shows the small possibility of this recording to be .00000003405. We reject the idea that they are the same and it comclude that c52 makes more vitamin C then c39.  
 
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+
+So we made a box plots to see the data which shows and tells us that there is a difference between the two variables. after, we make sure and double check by using the t test method, which gave us the possibility of 00000003405 chance of it happening.   
